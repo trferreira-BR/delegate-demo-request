@@ -1,0 +1,8 @@
+# 1. Core properties
+# https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html#core-properties
+server:
+  port: 8800
+  error:
+    include-message: always
+  servlet:
+    context-path: /
